@@ -16,7 +16,7 @@ public class Baseclass {
 	readConfiguration read=new readConfiguration();
 	public String url=read.setUrl();
 	public String chromepath=read.setChromePath();
-	
+	public String testconflict="Feature Branch";
 	//rtytetye
 	@BeforeTest
 	public void setup() {
